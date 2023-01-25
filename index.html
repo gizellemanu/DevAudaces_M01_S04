@@ -1,19 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bank Account System</title>
-    <script src="./index.js" async></script>
-    <script src="./style.css" async></script>
-</head>
-<body>
-   <form id="form" class="container" method="POST">
-    <h1>Login</h1>
-    <input autocomplete="off" id="username" type="text" placeholder="Username">
-    <input autocomplete="off" id="password" type="password" placeholder="Password">
-    <button type="submit">Log in</button>
-   </form>
-</body>
-</html>
+<html>
+  <head>
+    <title>Bank Account</title>
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
+    <!DOCTYPE html>
+    <html lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="child">
+                <h1>Welcome back</h1>
+                <p>Please enter your details</p>
+                <form action="#">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <br>
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password" id="password" maxlength="16" required>
+                    <br>
+                    <div class="wrapper">
+                        <input type="checkbox" name="remember" id="remember-me" class="checkmark" checked>
+                        <label for="remember-me" class="remember-me">Remember for 30 days</label>
+                        <a href="#" target="_blank">Forgot your password?</a>
+                    </div>
+                    <button type="submit">Sign in</button>
+                    <p>Don't have an account? <a href="#">Sign up</a></p>
+                </form>
+            </div>
+        </div>
+    </body>
+    
+    </html>
