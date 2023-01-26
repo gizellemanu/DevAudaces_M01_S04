@@ -7,20 +7,28 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Internet Bank</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
-            rel="stylesheet">
-    </head>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"rel="stylesheet">
+        <script src="app.js" type="module"></script>
+  </head>
     
     <body>
         <div class="container">
             <div class="child">
-                <h1>Welcome back</h1>
+                <div class="topnav" id="myTopnav">
+                    <a href="login" class="active">Login</a>
+                    <a href="contact" >Contac</a>
+                    <a href="about" >About</a>
+                    <a href="Javascript:void{0};" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <h1>Welcome to your BANK</h1>
                 <p>Please enter your details</p>
                 <form action="#">
-                    <label for="email">Email</label>
+                    <label for="email">E-mail</label>
                     <br>
                     <input type="email" id="email" placeholder="Enter your email" required>
                     <br>
@@ -38,6 +46,7 @@
                 </form>
             </div>
         </div>
+        
     </body>
     
     </html>
